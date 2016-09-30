@@ -12,8 +12,6 @@ DriveTrain::DriveTrain() :
 	Subsystem("DriveTrain"), leftMotor(new Jaguar(MOTORLEFT)),
 	rightMotor(new Jaguar(MOTORRIGHT)), mult(1.0)
 {
-
-
 }
 
 DriveTrain::~DriveTrain()
