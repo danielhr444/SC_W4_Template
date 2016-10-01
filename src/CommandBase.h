@@ -21,6 +21,8 @@ public:
 	// Create a single static instance of all of your subsystems
 	static DriveTrain* drive;
 	static std::unique_ptr<OI> oi;
+	static intake* intake;
+	static shooter* shoot;
 };
 
 #endif
