@@ -1,13 +1,13 @@
 #include "ExampleSubsystem.h"
 #include "../RobotMap.h"
 
-ExampleSubsystem::ExampleSubsystem() :
-		Subsystem("ExampleSubsystem")
+ShooterSubsystem::ShooterSubsystem() :
+		Subsystem("ShooterSubsystem")
 {
 
 }
 
-void ExampleSubsystem::InitDefaultCommand()
+void ShooterSubsystem::InitDefaultCommand()
 {
 	// Set the default command for a subsystem here.
 	//SetDefaultCommand(new MySpecialCommand());
